@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modern AI Chat</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <div class="message ai-message">
+            <div class="avatar ai-avatar"></div>
+            <div class="message-content">
+                Hello! How can I assist you today?
+            </div>
+        </div>
+    </div>
+
+    <div class="prompt-area">
+        <button class="button" id="image">
+            <svg viewBox="0 0 24 24">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <path d="M21 15l-5-5-5 5-3-3-3 4"/>
+            </svg>
+            <input type="file" accept="image/*" hidden>
+        </button>
+        <input type="text" id="prompt" placeholder="Type your message...">
+        <button class="button" id="submit">
+            <svg viewBox="0 0 24 24">
+                <path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z"/>
+            </svg>
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
