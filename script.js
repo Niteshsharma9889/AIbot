@@ -3,7 +3,7 @@ const submitBtn = document.getElementById('submit');
 const chatContainer = document.querySelector('.chat-container');
 const imageBtn = document.getElementById('image');
 const imageInput = imageBtn.querySelector('input');
-const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=AIzaSyD6DA5-GQNi_UhvdPXreGEtw23Dv_0OQUw";
+const API_URL = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=myapikey";
 
 let user = { message: null, file: { mime_type: null, data: null } };
 
